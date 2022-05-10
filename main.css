@@ -110,7 +110,7 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Source Sans Pro", sans-serif;im
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -2452,7 +2452,88 @@
 				display: block;
 				width: 100%;
 			}
+			#albero {
+				margin: 5px;
+                float: left;
+                width: 180px;
+			}
 
+			div.gallery {
+                margin: 5px;
+                float: left;
+                width: 180px;
+            }
+
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 2em 0;
+		padding-left: 1.25em;
+	}
+
+		ol li {
+			padding-left: 0.25em;
+		}
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
+
+		ul li {
+			padding-left: 0.5em;
+		}
+
+		ul.alt {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.alt li {
+				border-top: solid 1px #e5e5e5;
+				padding: 0.5em 0;
+			}
+
+				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1.25em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons li .icon {
+					color: inherit;
+				}
+
+					ul.icons li .icon:before {
+						font-size: 1.75em;
+					}
+
+	dl {
+		margin: 0 0 2em 0;
+	}
 
 
 /* Actions */
@@ -3008,9 +3089,7 @@
 			#header.alt nav > ul > li.active a:not(.button) {
 				background-color: #edcede;
 			}
-			#header.alt nav > ul > li.active a:not(.button) {
-				background-color: #edcede;
-			}
+			
 
 			#header.alt input[type="submit"],
 			#header.alt input[type="reset"],
