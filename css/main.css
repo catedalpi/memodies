@@ -108,6 +108,10 @@
 		background: #edcede;
 	}
 
+	#pagina {
+		background: #ceeded;
+	} 
+
 	body, input, select, textarea {
 		color: #777;
 		font-family: "Source Sans Pro", sans-serif;im
@@ -3010,12 +3014,7 @@
 					    line-height: 1.95em;
 					    border-radius: 6px;
 					}
-					#homebutton1:hover {
-						background-color: #ceeded;
-						height: 2em;
-					    line-height: 1.95em;
-					    border-radius: 6px;
-					}
+					
 
 						#header nav > ul > li a:not(.button).icon:before {
 							color: #999;
@@ -3026,12 +3025,10 @@
 						margin-left: 0;
 					}
 
-					#header nav > ul > li.active a:not(.button) {
+					#homebutton nav > ul > li.active a:not(.button) {
 						background-color: #edcede;
 					}
-					#homebutton1 nav > ul > li.active {
-						background-color: #ceeded;
-					}
+				
 
 					#header nav > ul > li .button {
 						margin: 0 0 0 0.5em;
