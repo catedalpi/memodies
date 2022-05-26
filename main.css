@@ -108,6 +108,10 @@
 		background: #edcede;
 	}
 
+	#pagina {
+		background: #ceeded;
+	} 
+
 	body, input, select, textarea {
 		color: #777;
 		font-family: "Source Sans Pro", sans-serif;im
@@ -122,7 +126,6 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #edcede;
 		text-decoration: none;
 	}
@@ -2448,27 +2451,38 @@
 			width: 100%;
 		}
 
-			.image.fit img {
+		.image.fit img {
 				display: block;
 				width: 100%;
-			}
-			#albero {
+		}
+		#albero {
 				margin: 5px;
                 float: left;
                 width: 180px;
-			}
+		}
+		#storia {
+			float: left;
+			width: 40%;
+			height: auto;
+		}
 
-			div.gallery {
+		div.gallery {
                 margin: 5px;
                 float: left;
                 width: 180px;
-            }
+        }
 
 
-            div.gallery img {
+        div.gallery img {
                 width: 100%;
                 height: auto;
-            }
+        }
+
+        #nome {
+            	padding-bottom: 30px;
+            	width: 18%;
+            	height: auto;
+        }
 
 
 /* List */
@@ -3005,12 +3019,7 @@
 					    line-height: 1.95em;
 					    border-radius: 6px;
 					}
-					#homebutton1:hover {
-						background-color: #ceeded;
-						height: 2em;
-					    line-height: 1.95em;
-					    border-radius: 6px;
-					}
+					
 
 						#header nav > ul > li a:not(.button).icon:before {
 							color: #999;
@@ -3021,9 +3030,10 @@
 						margin-left: 0;
 					}
 
-					#header nav > ul > li.active a:not(.button) {
+					#homebutton nav > ul > li.active a:not(.button) {
 						background-color: #edcede;
 					}
+				
 
 					#header nav > ul > li .button {
 						margin: 0 0 0 0.5em;
