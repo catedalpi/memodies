@@ -2465,6 +2465,9 @@
 			float: left;
 			width: 180px
 		}
+                #visualizzazioni {
+			float: top-right;
+                }
 
 			div.gallery {
                 margin: 5px;
