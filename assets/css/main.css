@@ -2452,40 +2452,37 @@
 		}
 
 		.image.fit img {
-			display: block;
-			width: 100%;
+				display: block;
+				width: 100%;
 		}
 		#albero {
-			margin: 5px;
-                        float: left;
-                        width: 180px;
+				margin: 5px;
+                float: left;
+                width: 180px;
 		}
-                #storia {
-			margin: 5px;
+		#storia {
 			float: left;
-			width: 180px
+			width: 40%;
+			height: auto;
 		}
-                #visualizzazioni {
-			float: top-right;
-                }
 
-			div.gallery {
+		div.gallery {
                 margin: 5px;
                 float: left;
                 width: 180px;
-            }
+        }
 
 
-            div.gallery img {
+        div.gallery img {
                 width: 100%;
                 height: auto;
-            }
+        }
 
-            #nome {
+        #nome {
             	padding-bottom: 30px;
             	width: 18%;
             	height: auto;
-            }
+        }
 
 
 /* List */
