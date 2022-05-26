@@ -2451,15 +2451,20 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				display: block;
-				width: 100%;
-			}
-			#albero {
-				margin: 5px;
-                float: left;
-                width: 180px;
-			}
+		.image.fit img {
+			display: block;
+			width: 100%;
+		}
+		#albero {
+			margin: 5px;
+                        float: left;
+                        width: 180px;
+		}
+                #storia {
+			margin: 5px;
+			float: left;
+			width: 180px
+		}
 
 			div.gallery {
                 margin: 5px;
